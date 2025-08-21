@@ -11,3 +11,50 @@
  Tags:         boisson énergisante, plantes, produits naturels
  Text Domain:  oceanwpchild-planty
 */
+
+/*Police d'écriture*/
+@font-face {
+  font-family: 'Syne';
+  src: url('assets/fonts/Syne-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Syne';
+  src: url('assets/fonts/Syne-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Syne';
+  src: url('assets/fonts/Syne-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Syne';
+  src: url('assets/fonts/Syne-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Syne';
+  src: url('assets/fonts/Syne-ExtraBold.ttf');
+  font-weight: 800;
+}
+
+
+/*Footer*/
+.footerplanty {
+    color : #000000;
+    font-family: "Syne", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footerplanty:hover {
+    display: none;
+    color : #000000;
+}
