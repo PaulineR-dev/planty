@@ -12,6 +12,11 @@
  Text Domain:  oceanwpchild-planty
 */
 
+body a:hover,
+body a:focus {
+  outline: none !important; /*Le thème parent utilisant un !important*/
+}
+
 /*Police d'écriture*/
 @font-face {
   font-family: 'Syne';
@@ -43,6 +48,76 @@
   font-weight: 800;
 }
 
+/*Header*/
+
+.logoetmenuheader {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+/*logo en 2 images*/
+#plantyimg {
+  width: 192px;
+  height: 19px;
+}
+
+#vectorplantyimg {
+  width: 9px;
+  height: 19px;
+}
+
+.logoplanty {
+  display: flex;
+  gap: 5px;
+  margin-top: 31px;
+  margin-left: 37px;
+}
+
+/*menu*/
+.menuheaderplanty a {
+  font-family: 'Syne';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.menuheaderplanty a:hover,
+.menuheaderplanty a:focus{
+  font-family: 'Syne';
+  font-weight: 700;
+  font-size: 13px;
+  color: #000000;
+}
+
+.menuheaderplanty {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  height: 80px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-item-18 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  width: 236px;
+  height: 80px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #DC9F96;
+}
+
+#menu-item-18 a:hover {
+  background-color: #C02E44;
+  font-size: 16px;
+}
+
+
+
 
 /*Footer*/
 .footerplanty {
@@ -57,7 +132,6 @@
 .footerplanty a:hover,
 .footerplanty a:focus {
   color: #000000;        
-  outline: none !important; /*Le thème parent utilisant un !important*/
 }
 
 

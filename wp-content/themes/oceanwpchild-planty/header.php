@@ -35,18 +35,26 @@
 
 			<?php do_action( 'ocean_top_bar' ); ?>
 
-			<?php 
-				/*Désactivation header généré par défaut par le thème 
-			 	do_action( 'ocean_header' ); 
-			 	Remplacement par wp_nav_menu*/
-				wp_nav_menu([
-  					'theme_location' => 'menu-header-planty',
-					//Utilité de la suppression de div ?
-					'container' => false,
-					//Classe reportée dans le CSS du thème enfant
-   					'menu_class' => 'classheaderplanty'
-				]);
-			 ?>
+			<div class="logoetmenuheader">
+				<a href=index.php>
+					<div class="logoplanty">
+    					<img id="plantyimg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/PLANTY.png" alt="Logo du nom de Planty">
+						<img id="vectorplantyimg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Vector.png" alt="Logo en feuille de Planty">
+					</div>
+				</a>
+				<?php 
+					/*Désactivation header généré par défaut par le thème 
+			 		do_action( 'ocean_header' ); 
+			 		Remplacement par wp_nav_menu*/
+					wp_nav_menu([
+  						'theme_location' => 'menu-header-planty',
+						//Utilité de la suppression de div ?
+						'container' => false,
+						//Classe reportée dans le CSS du thème enfant
+   						'menu_class' => 'menuheaderplanty'
+					]);
+			 	?>
+			</div>
 
 			<?php do_action( 'ocean_before_main' ); ?>
 

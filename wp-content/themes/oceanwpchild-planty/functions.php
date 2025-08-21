@@ -8,3 +8,11 @@ function theme_enqueue_styles()
     // Chargement du style du thème actif enfant après celui du thème parent
     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style'));
 }
+
+//Activation du menu dans Apparence Menus
+function register_my_menus() {
+    register_nav_menus([
+    'menu-header-planty' => 'Menu Header Planty'
+    ]);
+}
+add_action('after_setup_theme', 'register_my_menus');
