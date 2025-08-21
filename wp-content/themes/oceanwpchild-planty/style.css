@@ -46,15 +46,18 @@
 
 /*Footer*/
 .footerplanty {
-    color : #000000;
-    font-family: "Syne", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    margin-top: 20px;
+  color : #000000;
+  font-family: "Syne", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.footerplanty:hover {
-    display: none;
-    color : #000000;
+.footerplanty a:hover,
+.footerplanty a:focus {
+  color: #000000;        
+  outline: none !important; /*Le thème parent utilisant un !important*/
 }
+
+
