@@ -17,6 +17,7 @@ body a:focus {
   outline: none !important; /*Le thème parent utilisant un !important*/
 }
 
+
 /*Police d'écriture*/
 @font-face {
   font-family: 'Syne';
@@ -48,6 +49,7 @@ body a:focus {
   font-weight: 800;
 }
 
+
 /*Header*/
 
 .logoetmenuheader {
@@ -74,7 +76,7 @@ body a:focus {
   margin-left: 37px;
 }
 
-/*menu*/
+/*menu du header*/
 .menuheaderplanty a {
   font-family: 'Syne';
   font-weight: 400;
@@ -117,8 +119,6 @@ body a:focus {
 }
 
 
-
-
 /*Footer*/
 .footerplanty {
   color : #000000;
@@ -134,4 +134,23 @@ body a:focus {
   color: #000000;        
 }
 
+
+/*Body*/
+
+#canetteprincipale {
+  position: relative; /*Ne s'applique pas - en cours*/
+  z-index: 2;
+}
+
+#feuille1 {
+  position: absolute;
+  z-index: 1;
+  /*left: calc(100% + 15px);*/
+}
+
+#feuille2 {
+  position: absolute;
+  z-index: 1;
+  /*left: calc(100% - 15px);*/
+}
 

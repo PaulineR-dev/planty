@@ -1,6 +1,6 @@
 <?php
 
-add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
+add_action('wp_enqueue_scripts', 'theme_enqueue_styles', 100); //Avec priorité supérieure à celle d'Elementor
 function theme_enqueue_styles()
 {
     // Chargement du thème parent OceanWP
