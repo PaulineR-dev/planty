@@ -127,6 +127,7 @@ body a:focus {
   font-size: 16px;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .footerplanty a:hover,
@@ -136,7 +137,6 @@ body a:focus {
 
 
 /*Body*/
-
 #canetteprincipale {
   position: relative; /*Ne s'applique pas - en cours*/
   z-index: 2;
@@ -148,9 +148,25 @@ body a:focus {
   /*left: calc(100% + 15px);*/
 }
 
-#feuille2 {
+/*noms des goûts*/
+.attachment-large .size-large .wp-image-24 {
   position: absolute;
   z-index: 1;
-  /*left: calc(100% - 15px);*/
+  left: 1px;
+  top: 1px;
 }
 
+/*bouton page d'accueil*/
+#commanderaccueil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 198px;
+  height: 55px;
+  border-radius: 5px
+}
+
+/*canettes cachées quand hors du conteneur*/
+.canettes {
+  overflow: hidden;
+}
