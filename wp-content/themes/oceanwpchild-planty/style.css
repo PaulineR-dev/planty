@@ -170,3 +170,34 @@ body a:focus {
 .canettes {
   overflow: hidden;
 }
+
+/*Formulaire page NOUS RENCONTRER*/
+.wpforms-field-label {
+  font-family: 'Syne';
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  border-color: none;
+  border: 0px;
+}
+
+#wpforms-submit-188 {
+  background-color: #E0B9B4 !important;
+  border-color: #E0B9B4 !important;
+  align-items: center !important;
+  font-family: "Syne" !important;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  text-transform: none;
+}
+
+#wpforms-submit-188:hover {
+  background-color: #C02E44 !important;
+  border-color: #C02E44 !important;
+}
+
+.wpforms-submit {
+  margin: 0 auto !important;
+  display: block !important;
+  padding: 15px 50px !important;
+}
