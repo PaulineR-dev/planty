@@ -36,7 +36,7 @@
 			<?php do_action( 'ocean_top_bar' ); ?>
 
 			<div class="logoetmenuheader">
-				<a href=index.php>
+				<a href="index.php">
 					<div class="logoplanty">
     					<img id="plantyimg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/PLANTY.png" alt="Logo du nom de Planty">
 						<img id="vectorplantyimg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Vector.png" alt="Logo en feuille de Planty">
