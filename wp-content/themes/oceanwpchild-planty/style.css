@@ -206,3 +206,18 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
 .wpcf7-form .init {
   position: relative !important;
 }
+
+
+/*Lien Admin*/
+#menu-item-19 {
+  order: 1;
+}
+
+.menuadmin {
+  order: 2;
+  margin: 0 20px;
+}
+
+#menu-item-18 {
+  order: 3; 
+}

@@ -16,3 +16,13 @@ function register_my_menus() {
     ]);
 }
 add_action('after_setup_theme', 'register_my_menus');
+
+function lien_admin($items, $args) {
+    if (is_user_logged_in()) {
+         // Si utilisateur connecté alors ajout d'un élément dans la liste
+        $items .= '<li class="menuadmin"><a href="' . admin_url() . '">Admin</a></li>';
+    }
+    return $items;
+}
+// Hook filtre
+add_filter('wp_nav_menu_items', 'lien_admin', 10, 2);
