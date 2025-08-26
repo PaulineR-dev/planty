@@ -172,32 +172,37 @@ body a:focus {
 }
 
 /*Formulaire page NOUS RENCONTRER*/
-.wpforms-field-label {
+.formulaireun {
   font-family: 'Syne';
   font-weight: 400;
   font-size: 20px;
   color: #000000;
-  border-color: none;
-  border: 0px;
 }
 
-#wpforms-submit-188 {
+/*utilisation de !important uniquement dans le cadre du formulaire lorsque le plugin ne permettait pas de modifications sans*/
+.boutonsubmitun {
   background-color: #E0B9B4 !important;
   border-color: #E0B9B4 !important;
-  align-items: center !important;
   font-family: "Syne" !important;
   font-weight: 400 !important;
   font-size: 15px !important;
-  text-transform: none;
+  text-transform: none !important;
+  border-radius: 3px;
+  display: block !important;
+  margin: 0 auto !important;
+  padding: 15px 60px !important;
 }
 
-#wpforms-submit-188:hover {
+.boutonsubmitun:hover {
   background-color: #C02E44 !important;
   border-color: #C02E44 !important;
 }
 
-.wpforms-submit {
-  margin: 0 auto !important;
-  display: block !important;
-  padding: 15px 50px !important;
+form input[type="text"], form input[type="password"], form input[type="email"], form input[type="url"], form input[type="date"], form input[type="month"], form input[type="time"], form input[type="datetime"], form input[type="datetime-local"], form input[type="week"], form input[type="number"], form input[type="search"], form input[type="tel"], form input[type="color"], form select, form textarea {
+  background-color: #FFFFFF !important;
+  border-radius: 7px !important;
+}
+
+.wpcf7-form .init {
+  position: relative !important;
 }

@@ -5,8 +5,8 @@ function theme_enqueue_styles()
 {
     // Chargement du thème parent OceanWP
     wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
-    // Chargement du style du thème actif enfant après celui du thème parent, sans versionnage pour éviter les blocages liés au navigateur
-    wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style'), null);
+    // Chargement du style du thème actif enfant après celui du thème parent
+    wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style'));
 }
 
 //Activation du menu dans Apparence Menus
