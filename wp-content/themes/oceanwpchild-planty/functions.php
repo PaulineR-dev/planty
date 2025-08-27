@@ -1,6 +1,6 @@
 <?php
 
-add_action('wp_enqueue_scripts', 'theme_enqueue_styles', 100); //Avec priorité supérieure à celle d'Elementor
+add_action('wp_enqueue_scripts', 'theme_enqueue_styles', 100); // Avec priorité supérieure à celle d'Elementor
 function theme_enqueue_styles()
 {
     // Chargement du thème parent OceanWP
@@ -9,7 +9,7 @@ function theme_enqueue_styles()
     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style'));
 }
 
-//Activation du menu dans Apparence Menus
+// Activation du menu dans Apparence Menus sur WordPress
 function register_my_menus() {
     register_nav_menus([
     'menu-header-planty' => 'Menu Header Planty'
@@ -17,6 +17,7 @@ function register_my_menus() {
 }
 add_action('after_setup_theme', 'register_my_menus');
 
+// Admin dans le menu
 function lien_admin($items, $args) {
     if (is_user_logged_in()) {
          // Si utilisateur connecté alors ajout d'un élément dans la liste
