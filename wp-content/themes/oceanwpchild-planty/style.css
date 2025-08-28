@@ -151,67 +151,70 @@ body a:focus {
 
 
 /*BODY*/
-#canetteprincipale {
-  position: relative; /*Ne s'applique pas - en cours*/
-  z-index: 2;
-}
 
+/*PAGE D'ACCUEIL*/
 /*Positionnement des feuilles*/
+/*Feuille à gauche de la canette*/
 body:not(.rtl) .elementor-21 .elementor-element.elementor-element-2f080ac {
   left: calc(50% - 359px);
 }
 
+/*Feuille à droite*/
 body:not(.rtl) .elementor-21 .elementor-element.elementor-element-ebfca58 {
   left: calc(50% + -5px);
 }
 
-/*Positinnement noms des goûts par-dessus les images*/
+/*Positionnement des noms des goûts par-dessus les images*/
+/*Fraise*/
 body:not(.rtl) .elementor-21 .elementor-element.elementor-element-9797338 {
   left: calc(50% - 344px);
 }
 
+/*Pamplemousse*/
 body:not(.rtl) .elementor-21 .elementor-element.elementor-element-f92a415 {
   left: calc(50% + 32px);
 }
 
+/*Framboise*/
 body:not(.rtl) .elementor-21 .elementor-element.elementor-element-45aa1ea {
   left: calc(50% - 327px);
 }
 
+/*Citron*/
 body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
  left: calc(50% + 45px);
 }
 
-.elementor-element-98e7c38 {
-  background-image: url('http://planty/wp-content/uploads/2025/08/Group-8-2-scaled.png');
-  background-repeat: repeat-x;
-  background-size: 1420px auto;
-  height: 150px;
-  overflow: hidden;
-  margin-top: 80px;
-  margin-bottom: -12px;
-}
-
-/*bouton page d'accueil*/
+/*Bouton page d'accueil*/
 #commanderaccueil {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 198px;
   height: 55px;
-  border-radius: 5px
+  border-radius: 5px;
 }
 
 #commanderaccueil:hover {
-  background-color: #C02E44 !important;
-  border-color: #C02E44 !important;
+  background-color: #C02E44;
+  border-color: #C02E44;
 }
 
-/*canettes cachées quand hors du conteneur*/
-.canettes {
-  overflow: hidden;
+/*Canettes de bas de page*/
+.elementor-element-98e7c38 {
+  background-image: url('http://planty/wp-content/uploads/2025/08/Group-8-2-scaled.png');
+  background-repeat: repeat-x;
+  background-size: 1420px;
+  height: 150px;
+  margin-top: 80px;
+  margin-bottom: -20px;
 }
 
+
+
+
+
+/*PAGE NOUS RENCONTRER*/
 /*Formulaire page NOUS RENCONTRER*/
 .formulaireun {
   font-family: 'Syne';
@@ -220,7 +223,7 @@ body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
   color: #000000;
 }
 
-/*utilisation de !important uniquement dans le cadre du formulaire lorsque le plugin ne permettait pas de modifications sans*/
+/*Utilisation de !important uniquement dans le cadre du formulaire lorsque le plugin ne permettait pas de modifications sans*/
 .boutonsubmitun {
   background-color: #E0B9B4 !important;
   border-color: #E0B9B4 !important;
@@ -248,6 +251,10 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
   position: relative !important;
 }
 
+
+
+
+/*PAGE COMMANDER*/
 /*Formulaire Page Commander*/
 .partiehauteformulaire {
   border-top: 1px solid #FFFFFF;
@@ -287,7 +294,6 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
   border-right: 1px solid #FFFFFF;
   padding-right: 25px;
 }
-
 
 
 .wpcf7-number {
