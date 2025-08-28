@@ -11,10 +11,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<!-- Police d'écriture Syne -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+
 
 	<?php wp_head(); ?>
 </head>
@@ -43,14 +40,12 @@
 					</div>
 				</a>
 				<?php 
-					/*Désactivation header généré par défaut par le thème 
+					/*Désactivation du header généré par défaut par le thème
 			 		do_action( 'ocean_header' ); 
-			 		Remplacement par wp_nav_menu*/
+			 		Remplacement par le menu à afficher*/
 					wp_nav_menu([
   						'theme_location' => 'menu-header-planty',
-						//Utilité de la suppression de div ?
 						'container' => false,
-						//Classe reportée dans le CSS du thème enfant
    						'menu_class' => 'menuheaderplanty'
 					]);
 			 	?>
