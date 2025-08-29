@@ -84,7 +84,7 @@ body a:focus {
 }
 
 .menuheaderplanty a:hover,
-.menuheaderplanty a:focus{
+.menuheaderplanty a:focus {
   font-family: 'Syne';
   font-weight: 700;
   font-size: 13px;
@@ -276,27 +276,8 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
 
 
 
-
 /*PAGE COMMANDER*/
 /*Formulaire Page Commander*/
-.partiehauteformulaire {
-  border-top: 1px solid #FFFFFF;
-  padding: 30px 0px;
-  margin-bottom: 60px;
-  border-bottom: 1px solid #FFFFFF;
-}
-
-.choixfruits {
-  display: flex !important;
-  justify-content: space-between !important;
-}
-
-.partiebasse {
-  display: flex !important;
-  gap: 20px;
-  margin-bottom: 40px;
-}
-
 .formulaireglobal {
   font-family: "Syne";
 }
@@ -305,7 +286,26 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
   font-size: 30px;
   font-weight: 700px;
   color: #FFFFFF;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
+}
+
+.formulairecommander {
+  border-top: 1px solid #FFFFFF;
+  padding: 30px 0px;
+}
+
+.choixfruits {
+  display: flex !important;
+  justify-content: space-between !important;
+  border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 55px;
+  padding-bottom: 30px;
+}
+
+.partiebasse {
+  display: flex !important;
+  gap: 20px;
+  margin-bottom: 40px;
 }
 
 .partiebassegaucheformulaire,
@@ -318,11 +318,9 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
   padding-right: 25px;
 }
 
-
-.wpcf7-number {
-  font-family: "Inter" !important;
-  font-weight: 400 !important;
-  font-size: 16px !important;
+.partiebasse label {
+  display: block;
+  margin-bottom: 10px;
 }
 
 .soustitreform {
@@ -330,7 +328,18 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
   font-family: "Syne" !important;
   font-size: 20px !important;
   font-weight: 400 !important;
+  display: block;
+  padding-bottom: 8px;
 }
+
+
+.wpcf7-number {
+  font-family: "Inter" !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}
+
+
 
 /*en cours
 .formulaireglobal label {
