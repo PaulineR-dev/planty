@@ -205,24 +205,47 @@ body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
   background-image: url('http://planty/wp-content/uploads/2025/08/Group-8-2-scaled.png');
   background-repeat: repeat-x;
   background-size: 1420px;
+  background-position: left;
   height: 150px;
   margin-top: 80px;
-  margin-bottom: -20px;
+  margin-bottom: -10px;
 }
 
 
-
-
-
 /*PAGE NOUS RENCONTRER*/
-/*Formulaire page NOUS RENCONTRER*/
+/*Positionnement plante haut de page*/
+body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a8fa1fd {
+    left: calc(50% - 545px);
+}
+
+/*Positionnement feuille à droite partie équipe*/
+body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a7b9053 {
+    right: calc(50% - 672px);
+}
+
+/*Positionnement feuille à gauche partie bas de formulaire*/
+body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
+    left: calc(50% - 249px);
+}
+
+/*Canettes bas de page*/ 
+.elementor-element-14a8815 {
+  background-image: url('http://planty/wp-content/uploads/2025/08/Group-8-2-scaled.png');
+  background-repeat: repeat-x;
+  background-size: 1420px;
+  background-position: left bottom;
+  height: 150px;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+/*Formulaire*/
 .formulaireun {
   font-family: 'Syne';
   font-weight: 400;
   font-size: 20px;
   color: #000000;
 }
-
 /*Utilisation de !important uniquement dans le cadre du formulaire lorsque le plugin ne permettait pas de modifications sans*/
 .boutonsubmitun {
   background-color: #E0B9B4 !important;
