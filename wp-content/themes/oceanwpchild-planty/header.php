@@ -42,6 +42,14 @@
 						<img id="vectorplantyimg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Vector.png" alt="Logo en feuille de Planty">
 					</div>
 				</a>
+
+			<div class="menuresponsive">
+    			<span class="bar"></span>
+    			<span class="bar"></span>
+    			<span class="bar"></span>
+			</div>
+
+
 				<?php 
 					/*Désactivation du header généré par défaut par le thème
 			 		do_action( 'ocean_header' ); 
@@ -52,6 +60,14 @@
    						'menu_class' => 'menuheaderplanty'
 					]);
 			 	?>
+
+
+
+
+
+
+
+
 			</div>
 
 			<?php do_action( 'ocean_before_main' ); ?>

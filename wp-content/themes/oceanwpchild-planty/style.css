@@ -437,3 +437,38 @@ input[type="number"] {
 .wpcf7-not-valid-tip {
   color: #000000;
 }
+
+
+/*Responsive affichage à partir de 320px*/
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .logoetmenuheader {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 12px;
+  }
+
+  .logoplanty {
+    margin-top: 15px;
+    margin-left: 0px;
+    justify-content: center;
+  }
+
+  .menuheaderplanty {
+    flex-direction: column;
+    gap: 9px;
+    height: auto;
+    padding-top: 20px;
+  }
+
+  #menu-item-18 a {
+    width: 161px;
+    height: 59px;
+}
+
+
+  
+
+
+
+}
