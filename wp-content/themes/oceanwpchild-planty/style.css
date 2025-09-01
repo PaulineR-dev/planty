@@ -439,7 +439,8 @@ input[type="number"] {
 }
 
 
-/*Responsive affichage à partir de 320px*/
+/*Affichage responsive à partir de 320px*/
+/*Menu*/
 @media screen and (min-width: 320px) and (max-width: 1024px) {
   .logoetmenuheader {
     flex-direction: column;
@@ -464,11 +465,60 @@ input[type="number"] {
   #menu-item-18 a {
     width: 161px;
     height: 59px;
+  }
+}
+
+/*Page d'accueil*/
+/*Tablette*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+/*Positionnement des noms des goûts par-dessus les images*/
+/*Fraise*/
+  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-9797338 {
+    left: calc(50% - 338px);
+  }
+
+/*Pamplemousse*/
+  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-f92a415 {
+    left: calc(50% + 54px);
+  }
+
+/*Framboise*/
+  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-45aa1ea {
+    left: calc(50% - 317px);
+  }
+
+/*Citron*/
+  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
+   left: calc(50% + 69px);
+  }
+}
+
+/*Mobile*/
+@media screen and (min-width: 320px) and (max-width: 767px) {
+/*Positionnement des noms des goûts par-dessus les images*/
+/*Fraise*/
+  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-9797338 {
+    left: calc(50% - 116px);
+    top: calc(25% - 178px);
+  }
+
+/*Pamplemousse*/
+  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-f92a415 {
+    left: calc(50% - 134px);
+    top: calc(25% + 109px);
+  }
+
+/*Framboise*/
+  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-45aa1ea {
+    left: calc(50% - 97px);
+    top: calc(75% - 200px);
+  }
+
+/*Citron*/
+  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
+    left: calc(50% + -123px);
+    top: calc(75% + 108px);
+  }
 }
 
 
-  
-
-
-
-}
