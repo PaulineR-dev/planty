@@ -377,6 +377,11 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
 
 .imgrelative {
   position: relative;
+  margin-bottom: -30px;
+}
+
+.nombre {
+  margin-bottom: -10px;
 }
 
 .nomfraise, 
@@ -468,9 +473,9 @@ input[type="number"] {
   }
 }
 
-/*Page d'accueil*/
 /*Tablette*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+/*PAGE d'accueil*/
 /*Positionnement des noms des goûts par-dessus les images*/
 /*Fraise*/
   body:not(.rtl) .elementor-21 .elementor-element.elementor-element-9797338 {
@@ -491,10 +496,32 @@ input[type="number"] {
   body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
    left: calc(50% + 69px);
   }
+
+/*PAGE Nous Rencontrer*/
+/*Positionnement plante haut de page*/
+body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a8fa1fd {
+  left: calc(10% - 48px);
+}
+
+/*Positionnement feuille à droite partie équipe*/
+body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a7b9053 {
+  right: calc(10% - 20px);
+}
+
+/*Positionnement feuille à gauche partie bas de formulaire*/
+body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
+  left: calc(50% - 256px);
+}
+
+/*PAGE Commander*/
+.choixfruits span {
+  font-size: 15px !important;
+}
 }
 
 /*Mobile*/
 @media screen and (min-width: 320px) and (max-width: 767px) {
+/*PAGE d'accueil*/
 /*Positionnement des noms des goûts par-dessus les images*/
 /*Fraise*/
   body:not(.rtl) .elementor-21 .elementor-element.elementor-element-9797338 {
@@ -519,6 +546,65 @@ input[type="number"] {
     left: calc(50% + -123px);
     top: calc(75% + 108px);
   }
+
+/*PAGE Nous Rencontrer*/
+/*Positionnement plante haut de page*/
+body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a8fa1fd {
+    left: calc(10% - 30px);
 }
 
+/*Positionnement feuille à droite partie équipe*/
+body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a7b9053 {
+  right: calc(10% - 20px);
+}
 
+/*Positionnement feuille à gauche partie bas de formulaire*/
+body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
+  left: calc(90% - 353px);
+}
+
+/*PAGE Commander*/
+.formulairecommander {
+  display: flex;
+  flex-direction: column;
+}
+
+.choixfruits {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 55px;
+    padding-bottom: 30px;
+    gap: 40px;
+}
+
+.partiebasse {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.partiebassegaucheformulaire {
+    border-right: 0px;
+    padding-right: 0px;
+}
+
+.choixfruits span {
+  font-size: 39px !important;
+}
+
+.formulaireglobal input[type="number"] {
+    height: 63px;
+    width: 49px;
+}
+
+form input[type=number] {
+  font-size: 24px;
+}
+
+.nompamplemousse {
+  left: 11%;
+}
+}
