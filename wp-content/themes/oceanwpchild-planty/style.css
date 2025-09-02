@@ -161,7 +161,7 @@ body:not(.rtl) .elementor-21 .elementor-element.elementor-element-2f080ac {
 
 /*Feuille à droite*/
 body:not(.rtl) .elementor-21 .elementor-element.elementor-element-ebfca58 {
-  left: calc(50% + -5px);
+  left: calc(10% - 20px);
 }
 
 /*Positionnement des noms des goûts par-dessus les images*/
@@ -476,6 +476,11 @@ input[type="number"] {
 /*Tablette*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 /*PAGE d'accueil*/
+/*Feuille à droite*/
+body:not(.rtl) .elementor-21 .elementor-element.elementor-element-ebfca58 {
+  left: calc(10% + 69px);
+}
+
 /*Positionnement des noms des goûts par-dessus les images*/
 /*Fraise*/
   body:not(.rtl) .elementor-21 .elementor-element.elementor-element-9797338 {
@@ -522,6 +527,11 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
 /*Mobile*/
 @media screen and (min-width: 320px) and (max-width: 767px) {
 /*PAGE d'accueil*/
+/*Feuille à droite*/
+body:not(.rtl) .elementor-21 .elementor-element.elementor-element-ebfca58 {
+  left: calc(10% + 119px);
+}
+
 /*Positionnement des noms des goûts par-dessus les images*/
 /*Fraise*/
   body:not(.rtl) .elementor-21 .elementor-element.elementor-element-9797338 {
