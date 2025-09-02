@@ -2,7 +2,7 @@
  Theme Name:   OceanWPChild Planty
  Theme URI:    https://oceanwp.org/
  Description:  Thème OceanWPChild Planty basé sur le thème OceanWP
- Author:       OceanWP
+ Author:       Planty-OceanWP
  Author URI:   https://oceanwp.org/about-oceanwp/
  Template:     oceanwp
  Version:      1.0.0
@@ -161,7 +161,7 @@ body:not(.rtl) .elementor-21 .elementor-element.elementor-element-2f080ac {
 
 /*Feuille à droite*/
 body:not(.rtl) .elementor-21 .elementor-element.elementor-element-ebfca58 {
-  left: calc(10% - 20px);
+  left: calc(10% - 64px);
 }
 
 /*Positionnement des noms des goûts par-dessus les images*/

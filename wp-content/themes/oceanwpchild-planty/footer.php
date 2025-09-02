@@ -81,7 +81,7 @@ if ( 'fullscreen' === oceanwp_mobile_menu_style() ) {
 <?php wp_footer(); ?>
 
 <div class="footerplanty"> 
-	<a href="index.php">Mentions légales</a>
+	<a href="<?php echo home_url(); ?>">Mentions légales</a>
 </div>
 
 </body>
