@@ -161,7 +161,7 @@ body:not(.rtl) .elementor-21 .elementor-element.elementor-element-2f080ac {
 
 /*Feuille à droite*/
 body:not(.rtl) .elementor-21 .elementor-element.elementor-element-ebfca58 {
-  left: calc(10% - 64px);
+  left: calc(50% - 2px);
 }
 
 /*Positionnement des noms des goûts par-dessus les images*/
@@ -478,7 +478,7 @@ input[type="number"] {
 /*PAGE d'accueil*/
 /*Feuille à droite*/
 body:not(.rtl) .elementor-21 .elementor-element.elementor-element-ebfca58 {
-  left: calc(10% + 69px);
+  left: calc(50% - 1px);
 }
 
 /*Positionnement des noms des goûts par-dessus les images*/
@@ -529,7 +529,7 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
 /*PAGE d'accueil*/
 /*Feuille à droite*/
 body:not(.rtl) .elementor-21 .elementor-element.elementor-element-ebfca58 {
-  left: calc(10% + 119px);
+  left: calc(50% - 29px);
 }
 
 /*Positionnement des noms des goûts par-dessus les images*/
