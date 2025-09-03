@@ -215,17 +215,17 @@ body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
 /*PAGE NOUS RENCONTRER*/
 /*Positionnement plante haut de page*/
 body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a8fa1fd {
-    left: calc(50% - 545px);
+  left: calc(50% - 545px);
 }
 
 /*Positionnement feuille à droite partie équipe*/
 body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a7b9053 {
-    right: calc(50% - 672px);
+  right: calc(50% - 672px);
 }
 
 /*Positionnement feuille à gauche partie bas de formulaire*/
 body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
-    left: calc(50% - 249px);
+  left: calc(50% - 249px);
 }
 
 /*Canettes bas de page*/ 
@@ -277,17 +277,8 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
 
 /*PAGE COMMANDER*/
 /*Formulaire Page Commander*/
-.formulaireglobal {
-  font-family: "Syne", sans-serif;
-}
-
-.formulaireglobal h3 {
-  font-size: 30px;
-  font-weight: 700;
-  color: #FFFFFF;
-}
-
 .formulairecommander {
+  font-family: "Syne", sans-serif;
   border-top: 1px solid #FFFFFF;
   padding: 30px 0px;
 }
@@ -310,6 +301,9 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
 
 .formulairecommander h3 {
   padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #FFFFFF;
 }
 
 .partiebasse {
@@ -444,8 +438,7 @@ input[type="number"] {
 }
 
 
-/*Affichage responsive à partir de 320px*/
-/*Menu*/
+/*Affichage responsive Menu à partir de 320px jusqu'à 1024px*/
 @media screen and (min-width: 320px) and (max-width: 1024px) {
   .logoetmenuheader {
     flex-direction: column;
@@ -475,146 +468,146 @@ input[type="number"] {
 
 /*Tablette*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-/*PAGE d'accueil*/
-/*Feuille à droite*/
-body:not(.rtl) .elementor-21 .elementor-element.elementor-element-ebfca58 {
-  left: calc(50% - 1px);
-}
+  /*PAGE d'accueil*/
+  /*Feuille à droite*/
+  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-ebfca58 {
+    left: calc(50% - 1px);
+  }
 
-/*Positionnement des noms des goûts par-dessus les images*/
-/*Fraise*/
+  /*Positionnement des noms des goûts par-dessus les images*/
+  /*Fraise*/
   body:not(.rtl) .elementor-21 .elementor-element.elementor-element-9797338 {
     left: calc(50% - 338px);
   }
 
-/*Pamplemousse*/
+  /*Pamplemousse*/
   body:not(.rtl) .elementor-21 .elementor-element.elementor-element-f92a415 {
     left: calc(50% + 54px);
   }
 
-/*Framboise*/
+  /*Framboise*/
   body:not(.rtl) .elementor-21 .elementor-element.elementor-element-45aa1ea {
     left: calc(50% - 317px);
   }
 
-/*Citron*/
+  /*Citron*/
   body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
    left: calc(50% + 69px);
   }
 
-/*PAGE Nous Rencontrer*/
-/*Positionnement plante haut de page*/
-body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a8fa1fd {
-  left: calc(10% - 48px);
-}
+  /*PAGE Nous Rencontrer*/
+  /*Positionnement plante haut de page*/
+  body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a8fa1fd {
+    left: calc(10% - 48px);
+  }
 
-/*Positionnement feuille à droite partie équipe*/
-body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a7b9053 {
-  right: calc(10% - 20px);
-}
+  /*Positionnement feuille à droite partie équipe*/
+  body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a7b9053 {
+    right: calc(10% - 20px);
+  }
 
-/*Positionnement feuille à gauche partie bas de formulaire*/
-body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
-  left: calc(50% - 254px);
-}
+  /*Positionnement feuille à gauche partie bas de formulaire*/
+  body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
+    left: calc(50% - 254px);
+  }
 
-/*PAGE Commander*/
-.choixfruits span {
-  font-size: 15px !important;
-}
+  /*PAGE Commander*/
+  .choixfruits span {
+    font-size: 15px !important;
+  }
 }
 
 /*Mobile*/
 @media screen and (min-width: 320px) and (max-width: 767px) {
-/*PAGE d'accueil*/
-/*Feuille à droite*/
-body:not(.rtl) .elementor-21 .elementor-element.elementor-element-ebfca58 {
-  left: calc(50% - 29px);
-}
+  /*PAGE d'accueil*/
+  /*Feuille à droite*/
+  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-ebfca58 {
+    left: calc(50% - 29px);
+  }
 
-/*Positionnement des noms des goûts par-dessus les images*/
-/*Fraise*/
-body:not(.rtl) .elementor-21 .elementor-element.elementor-element-9797338 {
-  left: calc(50% - 116px);
-  top: calc(50% - 413px);
-}
+  /*Positionnement des noms des goûts par-dessus les images*/
+  /*Fraise*/
+  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-9797338 {
+    left: calc(50% - 116px);
+    top: calc(50% - 413px);
+  }
 
-/*Pamplemousse*/
-body:not(.rtl) .elementor-21 .elementor-element.elementor-element-f92a415 {
-  left: calc(50% - 134px);
-  top: calc(50% - 171px);
-}
+  /*Pamplemousse*/
+  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-f92a415 {
+    left: calc(50% - 134px);
+    top: calc(50% - 171px);
+  }
 
-/*Framboise*/
-body:not(.rtl) .elementor-21 .elementor-element.elementor-element-45aa1ea {
-  left: calc(50% - 97px);
-  top: calc(50% + 86px);
-}
+  /*Framboise*/
+  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-45aa1ea {
+    left: calc(50% - 97px);
+    top: calc(50% + 86px);
+  }
 
-/*Citron*/
-body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
-  left: calc(50% - 123px);
-  top: calc(50% + 354px);
-}
+  /*Citron*/
+  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
+    left: calc(50% - 123px);
+    top: calc(50% + 354px);
+  }
 
-/*PAGE Nous Rencontrer*/
-/*Positionnement plante haut de page*/
-body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a8fa1fd {
-  left: calc(10% - 30px);
-}
+  /*PAGE Nous Rencontrer*/
+  /*Positionnement plante haut de page*/
+  body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a8fa1fd {
+    left: calc(10% - 30px);
+  }
 
-/*Positionnement feuille à droite partie équipe*/
-body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a7b9053 {
-  right: calc(10% - 20px);
-}
+  /*Positionnement feuille à droite partie équipe*/
+  body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a7b9053 {
+    right: calc(10% - 20px);
+  }
 
-/*Positionnement feuille à gauche partie bas de formulaire*/
-body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
-  left: calc(90% - 409px);
-}
+  /*Positionnement feuille à gauche partie bas de formulaire*/
+  body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
+    left: calc(90% - 409px);
+  }
 
-/*PAGE Commander*/
-.formulairecommander {
-  display: flex;
-  flex-direction: column;
-}
+  /*PAGE Commander*/
+  .formulairecommander {
+    display: flex;
+    flex-direction: column;
+  }
 
-.choixfruits {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: space-between !important;
-  border-bottom: 1px solid #FFFFFF;
-  margin-bottom: 55px;
-  padding-bottom: 30px;
-  gap: 40px;
-}
+  .choixfruits {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 55px;
+    padding-bottom: 30px;
+    gap: 40px;
+  }
 
-.partiebasse {
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 40px;
-  margin-bottom: 40px;
-}
+  .partiebasse {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
 
-.partiebassegaucheformulaire {
-  border-right: 0px;
-  padding-right: 0px;
-}
+  .partiebassegaucheformulaire {
+    border-right: 0px;
+    padding-right: 0px;
+  }
 
-.choixfruits span {
-  font-size: 39px !important;
-}
+  .choixfruits span {
+    font-size: 39px !important;
+  }
 
-.formulaireglobal input[type="number"] {
-  height: 63px;
-  width: 49px;
-}
+  .formulaireglobal input[type="number"] {
+    height: 63px;
+    width: 49px;
+  }
 
-form input[type=number] {
-  font-size: 24px;
-}
+  form input[type=number] {
+    font-size: 24px;
+  }
 
-.nompamplemousse {
-  left: 11%;
-}
+  .nompamplemousse {
+    left: 11%;
+  }
 }
