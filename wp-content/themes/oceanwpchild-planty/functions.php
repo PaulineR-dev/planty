@@ -1,5 +1,7 @@
 <?php
 
+// Hooks action
+
 function theme_enqueue_styles()
 {
     // Chargement du thème parent OceanWP
@@ -7,7 +9,7 @@ function theme_enqueue_styles()
     // Chargement du style du thème actif enfant après celui du thème parent avec gestion de la version du fichier
     wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style'), filemtime(get_stylesheet_directory() . '/style.css'));
 }
-add_action('wp_enqueue_scripts', 'theme_enqueue_styles', 100); // Avec priorité supérieure à celle d'Elementor
+add_action('wp_enqueue_scripts', 'theme_enqueue_styles', 100);
 
 
 // Activation du menu dans Apparence Menus sur WordPress
@@ -17,6 +19,8 @@ function menuheaderplanty()
 }
 add_action('after_setup_theme', 'menuheaderplanty');
 
+
+// Hook filter
 
 // Admin dans le menu
 function lien_admin($items) {

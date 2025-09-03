@@ -515,7 +515,7 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a7b9053 {
 
 /*Positionnement feuille à gauche partie bas de formulaire*/
 body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
-  left: calc(50% - 256px);
+  left: calc(50% - 254px);
 }
 
 /*PAGE Commander*/
@@ -534,33 +534,33 @@ body:not(.rtl) .elementor-21 .elementor-element.elementor-element-ebfca58 {
 
 /*Positionnement des noms des goûts par-dessus les images*/
 /*Fraise*/
-  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-9797338 {
-    left: calc(50% - 116px);
-    top: calc(25% - 178px);
-  }
+body:not(.rtl) .elementor-21 .elementor-element.elementor-element-9797338 {
+  left: calc(50% - 116px);
+  top: calc(50% - 413px);
+}
 
 /*Pamplemousse*/
-  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-f92a415 {
-    left: calc(50% - 134px);
-    top: calc(25% + 109px);
-  }
+body:not(.rtl) .elementor-21 .elementor-element.elementor-element-f92a415 {
+  left: calc(50% - 134px);
+  top: calc(50% - 171px);
+}
 
 /*Framboise*/
-  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-45aa1ea {
-    left: calc(50% - 97px);
-    top: calc(75% - 200px);
-  }
+body:not(.rtl) .elementor-21 .elementor-element.elementor-element-45aa1ea {
+  left: calc(50% - 97px);
+  top: calc(50% + 86px);
+}
 
 /*Citron*/
-  body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
-    left: calc(50% + -123px);
-    top: calc(75% + 108px);
-  }
+body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
+  left: calc(50% - 123px);
+  top: calc(50% + 354px);
+}
 
 /*PAGE Nous Rencontrer*/
 /*Positionnement plante haut de page*/
 body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a8fa1fd {
-    left: calc(10% - 30px);
+  left: calc(10% - 30px);
 }
 
 /*Positionnement feuille à droite partie équipe*/
@@ -570,7 +570,7 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a7b9053 {
 
 /*Positionnement feuille à gauche partie bas de formulaire*/
 body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
-  left: calc(90% - 353px);
+  left: calc(90% - 409px);
 }
 
 /*PAGE Commander*/
@@ -580,25 +580,25 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
 }
 
 .choixfruits {
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: space-between !important;
-    border-bottom: 1px solid #FFFFFF;
-    margin-bottom: 55px;
-    padding-bottom: 30px;
-    gap: 40px;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 55px;
+  padding-bottom: 30px;
+  gap: 40px;
 }
 
 .partiebasse {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 40px;
-    margin-bottom: 40px;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 40px;
+  margin-bottom: 40px;
 }
 
 .partiebassegaucheformulaire {
-    border-right: 0px;
-    padding-right: 0px;
+  border-right: 0px;
+  padding-right: 0px;
 }
 
 .choixfruits span {
@@ -606,8 +606,8 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
 }
 
 .formulaireglobal input[type="number"] {
-    height: 63px;
-    width: 49px;
+  height: 63px;
+  width: 49px;
 }
 
 form input[type=number] {

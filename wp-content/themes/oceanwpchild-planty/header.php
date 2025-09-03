@@ -38,8 +38,8 @@
 			<div class="logoetmenuheader">
 				<a href="<?php echo home_url(); ?>">
 					<div class="logoplanty">
-    					<img id="plantyimg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/PLANTY.png" alt="Logo du nom de Planty">
-						<img id="vectorplantyimg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Vector.png" alt="Logo en feuille de Planty">
+    					<img id="plantyimg" src="http://planty/wp-content/uploads/2025/09/PLANTY-1.png" alt="Logo du nom de Planty">
+						<img id="vectorplantyimg" src="http://planty/wp-content/uploads/2025/09/Vector-1.png" alt="Logo en feuille de Planty">
 					</div>
 				</a>
 
