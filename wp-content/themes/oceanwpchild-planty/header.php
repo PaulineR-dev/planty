@@ -46,7 +46,7 @@
 				<?php 
 					/*Désactivation du header généré par défaut par le thème
 			 		do_action( 'ocean_header' ); 
-			 		Remplacement par le menu à afficher*/
+			 		Remplacement par l'affichage du menu créé dans l'interface d'administration de Wordpress*/
 					wp_nav_menu([
   						'theme_location' => 'menu-header-planty',
 						'container' => false,

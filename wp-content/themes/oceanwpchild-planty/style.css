@@ -182,7 +182,7 @@ body:not(.rtl) .elementor-21 .elementor-element.elementor-element-45aa1ea {
 
 /*Citron*/
 body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
- left: calc(50% + 45px);
+  left: calc(50% + 45px);
 }
 
 /*Bouton page d'accueil*/
@@ -492,7 +492,7 @@ input[type="number"] {
 
   /*Citron*/
   body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
-   left: calc(50% + 69px);
+    left: calc(50% + 69px);
   }
 
   /*PAGE Nous Rencontrer*/
