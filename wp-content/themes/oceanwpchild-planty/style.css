@@ -211,7 +211,6 @@ body:not(.rtl) .elementor-21 .elementor-element.elementor-element-21f1896 {
 
 #commanderaccueil:hover {
   background-color: #C02E44;
-  border-color: #C02E44;
 }
 
 /*Canettes de bas de page*/
@@ -239,7 +238,7 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a7b9053 {
 
 /*Positionnement feuille à gauche partie bas de formulaire*/
 body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
-  left: calc(50% - 249px);
+  left: calc(50% - 232px);
 }
 
 /*Canettes bas de page*/ 
@@ -260,6 +259,7 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
   font-size: 20px;
   color: #000000;
 }
+
 /*Utilisation de !important uniquement dans le cadre du formulaire lorsque le plugin ne permettait pas de modifications sans*/
 .boutonsubmitun {
   background-color: #E0B9B4 !important;
@@ -268,10 +268,11 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
   font-weight: 400 !important;
   font-size: 15px !important;
   text-transform: none !important;
-  border-radius: 3px;
+  border-radius: 5px;
   display: block !important;
   margin: 0 auto !important;
-  padding: 15px 60px !important;
+  width: 198px;
+  height: 55px;
 }
 
 .boutonsubmitun:hover {
@@ -279,7 +280,7 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
   border-color: #C02E44 !important;
 }
 
-form input[type="text"], form input[type="password"], form input[type="email"], form input[type="url"], form input[type="date"], form input[type="month"], form input[type="time"], form input[type="datetime"], form input[type="datetime-local"], form input[type="week"], form input[type="number"], form input[type="search"], form input[type="tel"], form input[type="color"], form select, form textarea {
+form input[type="text"], form input[type="password"], form input[type="email"], form input[type="url"], form input[type="date"], form input[type="month"], form input[type="time"], form input[type="datetime"], form input[type="datetime-local"], form input[type="week"], form input[type="search"], form input[type="tel"], form input[type="color"], form select, form textarea {
   background-color: #FFFFFF !important;
   border-radius: 7px !important;
 }
@@ -351,10 +352,10 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
 }
 
 .soustitreform {
-  color: #FFFFFF !important;
-  font-family: "Syne", sans-serif !important;
-  font-size: 20px !important;
-  font-weight: 400 !important;
+  color: #FFFFFF;
+  font-family: "Syne", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
   display: block;
   padding-bottom: 8px;
 }
@@ -372,10 +373,11 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
   font-weight: 400 !important;
   font-size: 15px !important;
   text-transform: none !important;
-  border-radius: 3px;
+  border-radius: 5px;
   display: block !important;
   margin: 0 auto !important;
-  padding: 25px 60px !important;
+  width: 198px;
+  height: 55px;
 }
 
 .boutonsubmitdeux:hover {
@@ -429,16 +431,10 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
   color: #FFFFFF;
 }
 
-/*Désactivation des flèches des nombres sur Edge, Chrome et Safari*/
+/*Désactivation des flèches des nombres sur Edge, Chrome et Safari, paramétrage de l'apparence et positionnement des nombres*/
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-}
-
-/*Idem pour autres navigateurs dont Firefox, paramétrage de l'apparence et positionnement des nombres*/
-input[type="number"] {
-  -moz-appearance: textfield;
-  appearance: none ;
+  -webkit-appearance: none !important;
   font-family: 'Inter', sans-serif !important;
   font-size: 16px;
   font-weight: 400;
@@ -447,6 +443,26 @@ input[type="number"] {
   margin: 0 !important;
 }
 
+/*Idem pour autres navigateurs dont Firefox*/
+input[type="number"] {
+  -moz-appearance: textfield !important;
+  appearance: none !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center !important;          
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+form input[type="number"] {
+  background-color: #FFFFFF !important;
+  border-radius: 0px !important;
+  width: 39px;
+  height: 56px;
+}
+
+/*Choix couleur message erreur formulaire*/
 .wpcf7-not-valid-tip {
   color: #000000;
 }
