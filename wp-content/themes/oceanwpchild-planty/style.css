@@ -60,12 +60,12 @@ body a:focus {
 
 /*logo en 2 images*/
 #plantyimg {
-  width: 192px;
-  height: 19px;
+  width: 191.61px;
+  height: 18.87px;
 }
 
 #vectorplantyimg {
-  width: 9px;
+  width: 9.18px;
   height: 19px;
 }
 
@@ -81,6 +81,7 @@ body a:focus {
   font-family: 'Syne', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  color: #000000;
 }
 
 .menuheaderplanty a:hover,
@@ -88,7 +89,6 @@ body a:focus {
   font-family: 'Syne', sans-serif;
   font-weight: 700;
   font-size: 13px;
-  color: #000000;
 }
 
 .menuheaderplanty {
@@ -101,6 +101,21 @@ body a:focus {
   align-items: center;
 }
 
+/*Comportement menu header sur la page active conformément à la maquette*/
+.menuheaderplanty .current-menu-item:not(#menu-item-18) a {
+  pointer-events: none;
+  cursor: default;
+}
+
+body.home .logoetmenuheader .logoplanty {
+  pointer-events: none;
+  cursor: default;
+}
+.menuheaderplanty #menu-item-18.current-menu-item a {
+  cursor: default;
+}
+
+/*Bouton Commander*/
 #menu-item-18 a {
   display: flex;
   align-items: center;
@@ -115,7 +130,6 @@ body a:focus {
 
 #menu-item-18 a:hover {
   background-color: #C02E44;
-  font-size: 16px;
 }
 
 /*Lien Admin*/

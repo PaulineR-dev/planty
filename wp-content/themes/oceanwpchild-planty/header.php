@@ -36,13 +36,13 @@
 			<?php do_action( 'ocean_top_bar' ); ?>
 
 			<div class="logoetmenuheader">
-				<a href="<?php echo home_url(); ?>">
-					<div class="logoplanty">
+				<div class="logoplanty">
+					<a href="<?php echo home_url(); ?>">
     					<img id="plantyimg" src="http://planty/wp-content/uploads/2025/09/PLANTY-1.png" alt="Logo du nom de Planty">
+					</a>
 						<img id="vectorplantyimg" src="http://planty/wp-content/uploads/2025/09/Vector-1.png" alt="Logo en feuille de Planty">
-					</div>
-				</a>
-
+				</div>
+				
 				<?php 
 					/*Désactivation du header généré par défaut par le thème
 			 		do_action( 'ocean_header' ); 
