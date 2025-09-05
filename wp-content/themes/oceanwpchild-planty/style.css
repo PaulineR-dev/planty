@@ -238,7 +238,7 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-a7b9053 {
 
 /*Positionnement feuille à gauche partie bas de formulaire*/
 body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
-  left: calc(50% - 232px);
+  left: calc(50% - 260px);
 }
 
 /*Canettes bas de page*/ 
@@ -258,6 +258,11 @@ body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
   font-weight: 400;
   font-size: 20px;
   color: #000000;
+}
+
+.champformun {
+  width: 383px !important;
+  height: 71px !important;
 }
 
 /*Utilisation de !important uniquement dans le cadre du formulaire lorsque le plugin ne permettait pas de modifications sans*/
@@ -538,7 +543,7 @@ form input[type="number"] {
 
   /*Positionnement feuille à gauche partie bas de formulaire*/
   body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
-    left: calc(50% - 233px);
+    left: calc(50% - 261px);
   }
 
   /*PAGE Commander*/
@@ -594,6 +599,10 @@ form input[type="number"] {
   /*Positionnement feuille à gauche partie bas de formulaire*/
   body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
     left: calc(90% - 384px);
+  }
+
+  .champformun {
+  width: 310px !important;
   }
 
   /*PAGE Commander*/
