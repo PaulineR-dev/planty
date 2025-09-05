@@ -538,7 +538,7 @@ form input[type="number"] {
 
   /*Positionnement feuille à gauche partie bas de formulaire*/
   body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
-    left: calc(50% - 254px);
+    left: calc(50% - 233px);
   }
 
   /*PAGE Commander*/
@@ -593,7 +593,7 @@ form input[type="number"] {
 
   /*Positionnement feuille à gauche partie bas de formulaire*/
   body:not(.rtl) .elementor-14 .elementor-element.elementor-element-02da76b {
-    left: calc(90% - 409px);
+    left: calc(90% - 384px);
   }
 
   /*PAGE Commander*/
